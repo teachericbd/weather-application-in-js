@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03b7cb;
+    font-family: 'Poppins', sans-serif;
+}   
+::placeholder{
+    color: #363434b6;
+}
+.card{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.form-control{
+    height: 40px;
+    width: 320px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-color: #363434b6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 14px;
+    text-align: center;
+    color: #363434b6;
+}
+.form-control:focus{
+    border-color: #03b7cb;
+    outline: none;
+}
+.btn{
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #03b7cb;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hr{
+    height: 1px;
+    background-color: #363434b6;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr:before{
+    content: "Or";
+    background-color: #fff;
+    border: none !important;
+    position: absolute;
+    left: 48%;
+    top: -18px;
+    padding: 10px;
+    z-index: 111;
+    color: #363434b6;
+
+}
+.btn-block{
+    margin-top: 15px;
+    width: 100%;
+}
+.userInput{
+    display: block;
+}
+.weather{
+    display: none;
+    width: 380px;
+}
+.weather .card{
+    padding: 0;
+}
+.back{
+    background-color: transparent;
+    border: none;
+    color: #03b7cb;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-body{
+    text-align: center;
+}
+.weatherImg{
+    height: 200px;
+}
+.temperature{
+    font-size: 36px !important;
+    margin-bottom: 0px;
+}
+.card-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.card-left{
+    border-right: 1px solid #363434b6;
+    border-top: 1px solid #363434b6;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card-right{
+    border-top: 1px solid #363434b6;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card-left,.card-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .feel-details{
+    display: flex;
+} */
+.footer-icon{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.m-0{
+    margin: 0;
+}
